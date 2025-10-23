@@ -135,8 +135,8 @@ docker run -d --name kps -p 8080:8080 kps
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/Tamilupdates/FileToLink.git
-cd FileToLink
+git clone https://github.com/Tamilupdates/FileToLink f2l
+cd f2l
 
 # 2. Setup virtual environment
 python3 -m venv venv
@@ -486,6 +486,7 @@ This project is not affiliated with Telegram. Use it responsibly and in complian
   <a href="https://github.com/Tamilupdates/FileToLink/issues/new">Request Feature</a>
 
 </p>
+
 
 
 
