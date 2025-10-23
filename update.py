@@ -6,7 +6,7 @@ from KPS.utils.logger import logger
 load_dotenv('config.env', override=True)
 
 UPSTREAM_REPO = getenv('UPSTREAM_REPO', "")
-UPSTREAM_BRANCH = getenv('UPSTREAM_BRANCH', "pyrofork")
+UPSTREAM_BRANCH = getenv('UPSTREAM_BRANCH', "main")
 
 if UPSTREAM_REPO:
     config_backup = '../config.env.tmp'
