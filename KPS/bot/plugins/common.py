@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 
 from pyrogram import Client, filters
 from pyrogram.types import (InlineKeyboardButton, InlineKeyboardMarkup,
-                            LinkPreviewOptions, Message, User)
+                            Message, User)
 
 from KPS.bot import StreamBot
 from KPS.utils.bot_utils import (gen_dc_txt, get_user, log_newusr,
@@ -79,7 +79,7 @@ async def start_command(bot: Client, msg: Message):
     btns = [
         [InlineKeyboardButton(MSG_BUTTON_GET_HELP, callback_data="help_command"),
          InlineKeyboardButton(MSG_BUTTON_ABOUT, callback_data="about_command")],
-        [InlineKeyboardButton(MSG_BUTTON_UPDATES, url="https://telegram.me/KPSBots"),
+        [InlineKeyboardButton(MSG_BUTTON_UPDATES, url="https://t.me/KPSBots"),
          InlineKeyboardButton(MSG_BUTTON_CLOSE, callback_data="close_panel")]
     ]
     
@@ -114,7 +114,7 @@ async def about_command(bot: Client, msg: Message):
     
     btns = [
         [InlineKeyboardButton(MSG_BUTTON_GET_HELP, callback_data="help_command")],
-        [InlineKeyboardButton(MSG_BUTTON_UPDATES, url="https://telegram.me/KPSBots"),
+        [InlineKeyboardButton(MSG_BUTTON_UPDATES, url="https://t.me/KPSBots"),
          InlineKeyboardButton(MSG_BUTTON_CLOSE, callback_data="close_panel")]
     ]
     
@@ -219,5 +219,5 @@ async def ping_command(bot: Client, msg: Message):
     await handle_flood_wait(sent.edit_text,
         MSG_PING_RESPONSE.format(time_taken_ms=ms),
         reply_markup=InlineKeyboardMarkup(btns),
-        link_preview_options=LinkPreviewOptions(is_disabled=True)
+        disable_web_page_preview=True
     )

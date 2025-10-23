@@ -3,7 +3,7 @@
 from pyrogram import Client, filters
 from pyrogram.errors import MessageNotModified, MessageDeleteForbidden
 from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
-                            InlineKeyboardMarkup, LinkPreviewOptions)
+                            InlineKeyboardMarkup)
 
 from KPS.bot import StreamBot
 from KPS.utils.broadcast import broadcast_ids
@@ -47,7 +47,7 @@ async def help_callback(client: Client, callback_query: CallbackQuery):
             callback_query.message.edit_text,
             text=MSG_HELP.format(max_files=Var.MAX_BATCH_FILES),
             reply_markup=InlineKeyboardMarkup(buttons),
-            link_preview_options=LinkPreviewOptions(is_disabled=True)
+            disable_web_page_preview=True
         )
     except MessageNotModified:
         pass
@@ -62,7 +62,7 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
         buttons = [
             [InlineKeyboardButton(MSG_BUTTON_GET_HELP, callback_data="help_command")],
             [
-                InlineKeyboardButton(MSG_BUTTON_UPDATES, url="https://telegram.me/KPSBots"),
+                InlineKeyboardButton(MSG_BUTTON_UPDATES, url="https://t.me/KPSBots"),
                 InlineKeyboardButton(MSG_BUTTON_CLOSE, callback_data="close_panel")
             ]
         ]
@@ -70,7 +70,7 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
             callback_query.message.edit_text,
             text=MSG_ABOUT,
             reply_markup=InlineKeyboardMarkup(buttons),
-            link_preview_options=LinkPreviewOptions(is_disabled=True)
+            disable_web_page_preview=True
         )
     except MessageNotModified:
         pass
@@ -94,7 +94,7 @@ async def restart_broadcast_callback(client: Client, callback_query: CallbackQue
             callback_query.message.edit_text,
             MSG_ERROR_BROADCAST_INSTRUCTION,
             reply_markup=InlineKeyboardMarkup(buttons),
-            link_preview_options=LinkPreviewOptions(is_disabled=True)
+            disable_web_page_preview=True
         )
     except Exception as e:
         logger.error(f"Error in restart broadcast callback: {e}", exc_info=True)

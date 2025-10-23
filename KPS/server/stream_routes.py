@@ -133,7 +133,7 @@ async def status_endpoint(request):
             "uptime": get_readable_time(uptime)
         },
         "telegram_bot": {
-            # "username": f"@{StreamBot.username}",
+            #"username": f"@{StreamBot.username}",
             "active_clients": len(multi_clients)
         },
         "resources": {

@@ -111,7 +111,7 @@ MSG_SHELL_NO_OUTPUT = "✅ <b>Command Executed:</b> No output."
 
 MSG_WORKLOAD_ITEM = "   {bot_name}: {load}\n"
 MSG_ADMIN_RESTART_DONE = "✅ **Restart Successful!**"
-MSG_RESTARTING = "♻️ **Restarting Bot...**\n\n> ⏳ Please wait a moment."
+MSG_RESTARTING = "♻️ **Updating and Restarting Bot...**\n\n> ⏳ Please wait a moment."
 MSG_LOG_FILE_CAPTION = "📄 **System Logs**"
 
 MSG_LOG_FILE_EMPTY = "ℹ️ **Log File Empty:** No data found in the log file."
@@ -339,6 +339,32 @@ MSG_SYSTEM_STATUS = (
     "📜 **Workload Distribution:**\n\n"
     "{workload_items}\n"
     "> ♻️ **Version:** `{version}`"
+)
+
+# ------ Speedtest Messages ------
+MSG_SPEEDTEST_INIT = "🚀 **Running Speed Test...**"
+MSG_SPEEDTEST_ERROR = "❌ **Speed Test Failed!**\n\n> Unable to complete the speed test. Please try again later."
+MSG_SPEEDTEST_RESULT = (
+    "⚡ **Speed Test Results**\n\n"
+    "**SPEEDTEST INFO:**\n"
+    "> **Download:** `{download_mbps} Mbps` (`{download_bps}/s`)\n"
+    "> **Upload:** `{upload_mbps} Mbps` (`{upload_bps}/s`)\n"
+    "> **Ping:** `{ping} ms`\n"
+    "> **Timestamp:** `{timestamp}`\n"
+    "> **Data Sent:** `{bytes_sent}`\n"
+    "> **Data Received:** `{bytes_received}`\n\n"
+    "**SERVER INFO:**\n"
+    "> **Name:** `{server_name}`\n"
+    "> **Country:** `{server_country}`\n"
+    "> **Sponsor:** `{server_sponsor}`\n"
+    "> **Latency:** `{server_latency} ms`\n"
+    "> **Coordinates:** `{server_lat}, {server_lon}`\n\n"
+    "**CLIENT DETAILS:**\n"
+    "> **IP:** `{client_ip}`\n"
+    "> **Coordinates:** `{client_lat}, {client_lon}`\n"
+    "> **ISP:** `{client_isp}`\n"
+    "> **ISP Rating:** `{client_isprating}`\n"
+    "> **Country:** `{client_country}`"
 )
 MSG_SYSTEM_STATS = (
     "📊 **System Statistics**\n\n"

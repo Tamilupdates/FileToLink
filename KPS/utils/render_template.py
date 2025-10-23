@@ -33,6 +33,7 @@ async def render_page(id: int, secure_hash: str, requested_action: str | None = 
             raise InvalidHash("File unique ID or secure hash mismatch during rendering.")
         
         quoted_filename = urllib.parse.quote(file_name.replace('/', '_'))
+        # src = urllib.parse.urljoin(Var.URL, f'{secure_hash}{id}/{quoted_filename}')
         src = urllib.parse.urljoin(Var.URL, f'kpsbots-{secure_hash}{id}')
         safe_filename = html_module.escape(file_name)
         if requested_action == 'stream':

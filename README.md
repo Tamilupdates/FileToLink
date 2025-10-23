@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3.13%2B-blue?style=for-the-badge&logo=python" alt="Python Version"></a>
-  <a href="https://github.com/KurimuzonAkuma/pyrogram/"><img src="https://img.shields.io/badge/Kurigram-red?style=for-the-badge" alt="Kurigram"></a>
+  <a href="https://github.com/Mayuri-Chan/pyrofork"><img src="https://img.shields.io/badge/Pyrofork-red?style=for-the-badge" alt="Pyrofork"></a>
   <a href="LICENSE"><img src="https://img.shields.io/github/license/Tamilupdates/FileToLink?style=for-the-badge&color=green" alt="License"></a>
   <a href="https://telegram.me/KPSBots"><img src="https://img.shields.io/badge/Telegram-Channel-blue?style=for-the-badge&logo=telegram" alt="Telegram Channel"></a>
 </p>
@@ -99,7 +99,7 @@ User Uploads File → Telegram Bot → Forwards to Channel → Generates Direct 
 
 ## Getting Started
 
-This section covers the system requirements and step-by-step installation guide for setting up KPSBots.
+This section covers the system requirements and step-by-step installation guide for setting up KPS Bots.
 
 ### Prerequisites
 
@@ -243,6 +243,7 @@ Copy `config_sample.env` to `config.env` and fill in your values.
 | `/log` | Send bot logs. |
 | `/restart` | Restart the bot. |
 | `/shell` | Execute a shell command. |
+| `/speedtest` | Run network speed test and display comprehensive results. |
 | `/users` | Show total number of users. |
 | `/authorize` | Permanently authorize a user to use the bot (bypasses token system). |
 | `/deauthorize` | Remove permanent authorization from a user. |
@@ -270,6 +271,7 @@ listauth - [Admin] List authorized
 log - [Admin] Send bot logs
 restart - [Admin] Restart the bot
 shell - [Admin] Execute shell command
+speedtest - [Admin] Run network speed test
 ```
 
 </details>
@@ -313,6 +315,16 @@ KPS Bots implements a sophisticated multi-tier rate limiting system designed for
 - **Automatic Re-queuing**: Failed requests due to rate limits are intelligently re-queued.
 - **Queue Size Limits**: Configurable maximum queue size.
 - **Flood Protection**: Built-in protection against Telegram flood waits.
+
+### Network Speed Testing
+
+Monitor server performance with built-in speed testing:
+
+```bash
+/speedtest
+```
+
+Features include download/upload speeds, latency measurements, and shareable result images for performance monitoring.
 
 ## Production Deployment Guide
 
@@ -457,7 +469,7 @@ Licensed under the [Apache License 2.0](LICENSE). See the `LICENSE` file for det
 
 ## Acknowledgments
 
--   [Kurigram](https://github.com/KurimuzonAkuma/pyrogram/) - Telegram MTProto API Framework
+-   [Pyrofork](https://github.com/Mayuri-Chan/pyrofork) - Telegram MTProto API Framework
 -   [aiohttp](https://github.com/aio-libs/aiohttp) - Asynchronous HTTP Client/Server
 -   [Motor](https://github.com/mongodb/motor) - Asynchronous MongoDB Driver
 -   [TgCrypto](https://github.com/pyrogram/tgcrypto) - High-performance cryptography library
