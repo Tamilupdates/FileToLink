@@ -118,8 +118,8 @@ This section covers the system requirements and step-by-step installation guide 
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/Tamilupdates/FileToLink.git
-cd FileToLink
+git clone https://github.com/Tamilupdates/FileToLink f2l
+cd f2l
 
 # 2. Configure
 cp config_sample.env config.env
@@ -486,5 +486,6 @@ This project is not affiliated with Telegram. Use it responsibly and in complian
   <a href="https://github.com/Tamilupdates/FileToLink/issues/new">Request Feature</a>
 
 </p>
+
 
 
