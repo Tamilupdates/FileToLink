@@ -2,7 +2,7 @@
 
 # ⚡ KPS Bots
 
-<a href="https://telegram.me/KPSBots"><img src="https://i.ibb.co/3YdmmDj6/kpsbots-favicon.png" alt="KPSBots Logo" width="120"></a>
+<a href="https://telegram.me/KPSBots"><img src="https://graph.org/file/0ff9d5e94a070fe4154c0.jpg" alt="KPSBots Logo" width="550"></a>
 
 <!-- 🍴 Forks -->
 <a href="https://github.com/Tamilupdates/FileToLink/network/members"><img src="https://img.shields.io/github/forks/Tamilupdates/FileToLink?style=plastic&logo=git&logoColor=white&label=Forks&color=03A9F4&labelColor=0D47A1" alt="GitHub Forks"></a> <!-- ⭐ Stars --> <a href="https://github.com/Tamilupdates/FileToLink/stargazers"><img src="https://img.shields.io/github/stars/Tamilupdates/FileToLink?style=plastic&logo=github&logoColor=white&label=Stars&color=FBC02D&labelColor=424242" alt="GitHub Stars"></a> <!-- 🐞 Issues --> <a href="https://github.com/Tamilupdates/FileToLink/issues"><img src="https://img.shields.io/github/issues/Tamilupdates/FileToLink?style=plastic&logo=codecov&logoColor=white&label=Issues&color=E53935&labelColor=880E4F" alt="GitHub Issues"></a>
@@ -474,3 +474,4 @@ This project is not affiliated with Telegram. Use it responsibly and in complian
   <a href="https://github.com/Tamilupdates/FileToLink/issues/new">Request Feature</a>
 
 </p>
+
