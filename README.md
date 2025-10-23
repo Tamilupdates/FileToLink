@@ -7,8 +7,8 @@
 <!-- 🍴 Forks -->
 <a href="https://github.com/Tamilupdates/FileToLink/network/members"><img src="https://img.shields.io/github/forks/Tamilupdates/FileToLink?style=plastic&logo=git&logoColor=white&label=Forks&color=03A9F4&labelColor=0D47A1" alt="GitHub Forks"></a> <!-- ⭐ Stars --> <a href="https://github.com/Tamilupdates/FileToLink/stargazers"><img src="https://img.shields.io/github/stars/Tamilupdates/FileToLink?style=plastic&logo=github&logoColor=white&label=Stars&color=FBC02D&labelColor=424242" alt="GitHub Stars"></a> <!-- 🐞 Issues --> <a href="https://github.com/Tamilupdates/FileToLink/issues"><img src="https://img.shields.io/github/issues/Tamilupdates/FileToLink?style=plastic&logo=codecov&logoColor=white&label=Issues&color=E53935&labelColor=880E4F" alt="GitHub Issues"></a>
   
-<!-- ⚡ Kurigram Framework -->
-<a href="https://github.com/KurimuzonAkuma/pyrogram/"><img src="https://img.shields.io/badge/Kurigram-FF9800?style=plastic&logo=python&logoColor=white&labelColor=212121" alt="PyroFork Framework"></a> <!-- 📜 License --> <a href="LICENSE"><img src="https://img.shields.io/github/license/Tamilupdates/FileToLink?style=plastic&label=License&color=4CAF50&logo=open-source-initiative&logoColor=white&labelColor=1B5E20" alt="License"></a>
+<!-- ⚡ PyroFork Framework -->
+<a href="https://github.com/Mayuri-Chan/pyrofork"><img src="https://img.shields.io/badge/PyroFork-FF9800?style=plastic&logo=python&logoColor=white&labelColor=212121" alt="PyroFork Framework"></a> <!-- 📜 License --> <a href="LICENSE"><img src="https://img.shields.io/github/license/Tamilupdates/FileToLink?style=plastic&label=License&color=4CAF50&logo=open-source-initiative&logoColor=white&labelColor=1B5E20" alt="License"></a>
 
 <!-- 💬 Telegram -->
 <a href="https://telegram.me/KPSBots"><img src="https://img.shields.io/badge/Join%20on%20Telegram-0088CC?style=plastic&logo=telegram&logoColor=white&labelColor=0A3D62" alt="Telegram Channel" width="170"></a>
@@ -617,6 +617,7 @@ This project is not affiliated with Telegram. Use it responsibly and in complian
   <a href="https://github.com/Tamilupdates/FileToLink/issues/new">Request Feature</a>
 
 </p>
+
 
 
 
