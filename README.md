@@ -112,44 +112,175 @@ This section covers the system requirements and step-by-step installation guide 
 | Public Server | VPS/Dedicated server | Any provider |
 | Storage Channel | For file storage | Create in Telegram |
 
-### Installation
+## Installation
 
-#### Docker Installation (Recommended)
+## 🚀 Deployment Guide (VPS)
+
+## 1. Installing Requirements
+
+Clone this repository:
 
 ```bash
-# 1. Clone repository
-git clone https://github.com/Tamilupdates/FileToLink f2l
-cd f2l
+git clone https://github.com/Tamilupdates/FileToLink f2l && cd f2l
+```
 
-# 2. Configure
+Setting up config file:
+    
+```
 cp config_sample.env config.env
-nano config.env  # Edit your settings
+```
 
-# 3. Build and run
-docker build -t kps .
-docker run -d --name kps -p 8080:8080 kps
+Edit your settings:
+
+```
+nano config.env
+```
+
+_Fill up rest of the fields. Meaning of each field is discussed below._
+
+**NOTE**: All values must be filled between quotes, even if it's `Int`, `Bool` or `List`.
+
+---
+
+## 2. Build and Run the Docker Image
+
+*Make sure you mount the app folder and install Docker following the official documentation.*
+
+There are two methods to build and run the Docker image:
+
+### 2.1 Using Official Docker Commands
+
+- **Start Docker daemon** (skip if already running):
+
+  ```bash
+  sudo dockerd
+  ```
+
+- **Build the Docker image:**
+
+  ```bash
+  sudo docker build . -t kps
+  ```
+
+- **Run the image:**
+
+  ```bash
+  sudo docker run --name kps -p 80:80 -p 8080:8080 kps
+  ```
+
+- **To stop the running image:**
+
+  First, list running containers:
+
+  ```bash
+  sudo docker ps
+  ```
+
+  Then, stop the container using its ID:
+
+  ```bash
+  sudo docker stop <container_id>
+  ```
+
+---
+
+### 2.2 Using docker-compose (Recommended)
+
+**Note:** If you want to use ports other than 80 and 8080 for torrent file selection and rclone serve respectively, update them in [docker-compose.yml](https://github.com/Tamilupdates/FileToLink/blob/kurigram/docker-compose.yml).
+
+- **Install docker-compose:**
+
+  ```bash
+  sudo apt install docker-compose
+  ```
+
+- **Build and run the Docker image (or view the current running image):**
+
+  ```bash
+  sudo docker-compose up
+  ```
+
+- **After editing files (e.g., using nano to edit start.sh), rebuild:**
+
+  ```bash
+  sudo docker-compose up --build
+  ```
+
+- **To stop the running image:**
+
+  ```bash
+  sudo docker-compose stop
+  ```
+
+- **To restart the image:**
+
+  ```bash
+  sudo docker-compose start
+  ```
+
+- **To view the latest logs from the running container (after mounting the folder):**
+
+  ```bash
+  sudo docker-compose up
+  ```
+
+- **Tutorial Video for docker-compose and checking ports:**
+
+  [![See Video](https://img.shields.io/badge/See%20Video-black?style=for-the-badge&logo=YouTube)](https://youtu.be/c8_TU1sPK08)
+
+
+------
+
+#### Docker Notes
+
+**IMPORTANT NOTES**:
+
+1. You should stop the running image before deleting the container and you should delete the container before the image.
+2. To delete the container (this will not affect on the image):
+
+```
+sudo docker container prune
+```
+
+3. To delete te images:
+
+```
+sudo docker image prune -a
 ```
 
 <details>
-<summary>Manual Installation</summary>
+  <summary><h3>3. Manual Installation</h3></summary>
+
+- **Clone repository**
 
 ```bash
-# 1. Clone repository
 git clone https://github.com/Tamilupdates/FileToLink f2l
 cd f2l
+```
 
-# 2. Setup virtual environment
+- **Setup virtual environment**
+
+```bash
 python3 -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
+```
 
-# 3. Install dependencies
+- **Install dependencies**
+
+```bash
 pip install -r requirements.txt
+```
 
-# 4. Configure
+- **Configure**
+
+```bash
 cp config_sample.env config.env
 nano config.env
+```
 
-# 5. Run bot
+- **Run bot**
+
+```bash
 python -m KPS
 ```
 
@@ -474,6 +605,7 @@ This project is not affiliated with Telegram. Use it responsibly and in complian
   <a href="https://github.com/Tamilupdates/FileToLink/issues/new">Request Feature</a>
 
 </p>
+
 
 
 
