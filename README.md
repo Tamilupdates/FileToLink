@@ -1,22 +1,23 @@
-<p align="center">
-  <a href="https://telegram.me/KPSBots">
-    <img src="https://i.ibb.co/3YdmmDj6/kpsbots-favicon.png" alt="KPSBots Logo" width="120">
-    <h1 align="center">⚡ KPS Bots</h1>
-  </a>  
-</p>
+<div align="center">
 
-<p align="center">
-  <b>High-Performance Telegram File-to-Link Bot for Direct Links & Streaming</b>
-</p>
+# ⚡ KPS Bots
 
-<p align="center">
-  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3.13%2B-blue?style=for-the-badge&logo=python" alt="Python Version"></a>
-  <a href="https://github.com/Mayuri-Chan/pyrofork"><img src="https://img.shields.io/badge/Pyrofork-red?style=for-the-badge" alt="Pyrofork"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/Tamilupdates/FileToLink?style=for-the-badge&color=green" alt="License"></a>
-  <a href="https://telegram.me/KPSBots"><img src="https://img.shields.io/badge/Telegram-Channel-blue?style=for-the-badge&logo=telegram" alt="Telegram Channel"></a>
-</p>
+<a href="https://telegram.me/KPSBots"><img src="https://i.ibb.co/3YdmmDj6/kpsbots-favicon.png" alt="KPSBots Logo" width="120"></a>
 
-<hr>
+<!-- 🍴 Forks -->
+<a href="https://github.com/Tamilupdates/FileToLink/network/members"><img src="https://img.shields.io/github/forks/Tamilupdates/FileToLink?style=plastic&logo=git&logoColor=white&label=Forks&color=03A9F4&labelColor=0D47A1" alt="GitHub Forks"></a> <!-- ⭐ Stars --> <a href="https://github.com/Tamilupdates/FileToLink/stargazers"><img src="https://img.shields.io/github/stars/Tamilupdates/FileToLink?style=plastic&logo=github&logoColor=white&label=Stars&color=FBC02D&labelColor=424242" alt="GitHub Stars"></a> <!-- 🐞 Issues --> <a href="https://github.com/Tamilupdates/FileToLink/issues"><img src="https://img.shields.io/github/issues/Tamilupdates/FileToLink?style=plastic&logo=codecov&logoColor=white&label=Issues&color=E53935&labelColor=880E4F" alt="GitHub Issues"></a>
+  
+<!-- ⚡ PyroFork Framework -->
+<a href="https://github.com/Mayuri-Chan/pyrofork"><img src="https://img.shields.io/badge/PyroFork-FF9800?style=plastic&logo=python&logoColor=white&labelColor=212121" alt="PyroFork Framework"></a> <!-- 📜 License --> <a href="LICENSE"><img src="https://img.shields.io/github/license/Tamilupdates/FileToLink?style=plastic&label=License&color=4CAF50&logo=open-source-initiative&logoColor=white&labelColor=1B5E20" alt="License"></a>
+
+<!-- 💬 Telegram -->
+<a href="https://telegram.me/KPSBots"><img src="https://img.shields.io/badge/Join%20on%20Telegram-0088CC?style=plastic&logo=telegram&logoColor=white&labelColor=0A3D62" alt="Telegram Channel" width="200"></a>
+
+#### 🚀 ***High-Performance Telegram File-to-Link Bot ⚡ For Direct Links 🎬 Streaming***
+</div>
+
+---
+
 
 ## 📑 Table of Contents
 
@@ -484,4 +485,5 @@ This project is not affiliated with Telegram. Use it responsibly and in complian
   <b>⭐ Star this project if you find it useful!</b><br>
   <a href="https://github.com/Tamilupdates/FileToLink/issues/new">Report Bug</a> •
   <a href="https://github.com/Tamilupdates/FileToLink/issues/new">Request Feature</a>
+
 </p>
