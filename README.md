@@ -11,7 +11,7 @@
 <a href="https://github.com/KurimuzonAkuma/pyrogram/"><img src="https://img.shields.io/badge/Kurigram-FF9800?style=plastic&logo=python&logoColor=white&labelColor=212121" alt="PyroFork Framework"></a> <!-- 📜 License --> <a href="LICENSE"><img src="https://img.shields.io/github/license/Tamilupdates/FileToLink?style=plastic&label=License&color=4CAF50&logo=open-source-initiative&logoColor=white&labelColor=1B5E20" alt="License"></a>
 
 <!-- 💬 Telegram -->
-<a href="https://telegram.me/KPSBots"><img src="https://img.shields.io/badge/Join%20on%20Telegram-0088CC?style=plastic&logo=telegram&logoColor=white&labelColor=0A3D62" alt="Telegram Channel" width="180"></a>
+<a href="https://telegram.me/KPSBots"><img src="https://img.shields.io/badge/Join%20on%20Telegram-0088CC?style=plastic&logo=telegram&logoColor=white&labelColor=0A3D62" alt="Telegram Channel" width="170"></a>
 
 #### 🚀 ***High-Performance Telegram File-to-Link Bot ⚡ For Direct Links 🎬 Streaming***
 </div>
@@ -617,6 +617,7 @@ This project is not affiliated with Telegram. Use it responsibly and in complian
   <a href="https://github.com/Tamilupdates/FileToLink/issues/new">Request Feature</a>
 
 </p>
+
 
 
 
