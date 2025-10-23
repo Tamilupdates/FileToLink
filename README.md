@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ KPS Bots
+# 🚀 KPS - File To Link Bot ⚡
 
 <a href="https://telegram.me/KPSBots"><img src="https://graph.org/file/0ff9d5e94a070fe4154c0.jpg" alt="KPSBots Logo" width="550"></a>
 
@@ -605,6 +605,7 @@ This project is not affiliated with Telegram. Use it responsibly and in complian
   <a href="https://github.com/Tamilupdates/FileToLink/issues/new">Request Feature</a>
 
 </p>
+
 
 
 
