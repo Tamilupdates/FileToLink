@@ -13,7 +13,7 @@ async def ping_server():
             while True:
                 try:
                     await asyncio.sleep(Var.PING_INTERVAL)
-                    async with session.get(Var.URL) as resp:
+                    async with session.get(Var.URL+"/status") as resp:
                         if resp.status != 200:
                             logger.warning(f"Ping to {Var.URL} returned status {resp.status}.")
                 except asyncio.CancelledError:
